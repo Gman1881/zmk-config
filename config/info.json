@@ -79,7 +79,7 @@
         { "label":         "RAlt", "row": 6, "col":  7, "x":  8.8, "y":    4.5, "r": -20, "rx":  13, "ry": 3 },
         { "label":       "Escape", "row": 6, "col":  8, "x":  9.8, "y":    4.5, "r": -20, "rx":  13, "ry": 3 },
         { "label":         "LAlt", "row": 6, "col":  3, "x":  5.7, "y":    5.5, "r":  20, "rx": 4.5, "ry": 3 },
-        { "label":         "LCmd", "row": 6, "col":  4, "x":  6.7, "y":    5.5,"r":  20, "rx": 4.5, "ry": 3 },
+        { "label":         "LCmd", "row": 6, "col":  4, "x":  6.7, "y":    5.5, "r":  20, "rx": 4.5, "ry": 3 },
         { "label":   "MO(Numpad)", "row": 6, "col":  5, "x":  7.7, "y":    5.5, "r":  20, "rx": 4.5, "ry": 3 },
         { "label":         "PgUp", "row": 6, "col":  7, "x":  8.8, "y":    5.5, "r": -20, "rx":  13, "ry": 3 },
         { "label":        "Enter", "row": 6, "col":  8, "x":  9.8, "y":    5.5, "r": -20, "rx":  13, "ry": 3 },
