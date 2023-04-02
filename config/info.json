@@ -74,16 +74,16 @@
         { "label":            "[", "row": 5, "col": 13, "x": 14.5, "y":  5.2 },
         { "label":            "]", "row": 5, "col": 14, "x": 15.5, "y":  5.5 },
 
-        { "label":        "LCtrl", "row": 6, "col":  6, "x":  6.7, "y":    4.5, "r":  20, "rx": 4.5, "ry": 3 },
-        { "label":    "Backspace", "row": 6, "col":  5, "x":  7.7, "y":    4.5, "r":  20, "rx": 4.5, "ry": 3 },
-        { "label":         "RAlt", "row": 6, "col":  7, "x":  8.8, "y":    4.5, "r": -20, "rx":  13, "ry": 3 },
-        { "label":       "Escape", "row": 6, "col":  8, "x":  9.8, "y":    4.5, "r": -20, "rx":  13, "ry": 3 },
-        { "label":         "LAlt", "row": 6, "col":  3, "x":  5.7, "y":    5.5, "r":  20, "rx": 4.5, "ry": 3 },
-        { "label":         "LCmd", "row": 6, "col":  4, "x":  6.7, "y":    5.5, "r":  20, "rx": 4.5, "ry": 3 },
-        { "label":   "MO(Numpad)", "row": 6, "col":  5, "x":  7.7, "y":    5.5, "r":  20, "rx": 4.5, "ry": 3 },
-        { "label":         "PgUp", "row": 6, "col":  7, "x":  8.8, "y":    5.5, "r": -20, "rx":  13, "ry": 3 },
-        { "label":        "Enter", "row": 6, "col":  8, "x":  9.8, "y":    5.5, "r": -20, "rx":  13, "ry": 3 },
-        { "label":        "Space", "row": 6, "col":  9, "x": 10.8, "y":    5.5, "r": -20, "rx":  13, "ry": 3 }
+        { "label":        "LCtrl", "row": 6, "col":  6, "x":  6.7, "y":    4.5},
+        { "label":    "Backspace", "row": 6, "col":  5, "x":  7.7, "y":    4.5},
+        { "label":         "RAlt", "row": 6, "col":  7, "x":  8.8, "y":    4.5},
+        { "label":       "Escape", "row": 6, "col":  8, "x":  9.8, "y":    4.5},
+        { "label":         "LAlt", "row": 6, "col":  3, "x":  5.7, "y":    5.5},
+        { "label":         "LCmd", "row": 6, "col":  4, "x":  6.7, "y":    5.5},
+        { "label":   "MO(Numpad)", "row": 6, "col":  5, "x":  7.7, "y":    5.5},
+        { "label":         "PgUp", "row": 6, "col":  7, "x":  8.8, "y":    5.5},
+        { "label":        "Enter", "row": 6, "col":  8, "x":  9.8, "y":    5.5},
+        { "label":        "Space", "row": 6, "col":  9, "x": 10.8, "y":    5.5}
       ]
     }
   },
