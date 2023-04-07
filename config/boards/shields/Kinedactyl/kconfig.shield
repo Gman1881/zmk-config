@@ -1,2 +1,5 @@
-config SHIELD_Kinedactyl
-    def_bool $(shields_list_contains,Kinedactyl)
+config SHIELD_Kinedactyl_LH
+    def_bool $(shields_list_contains,Kinedactyl_LH)
+
+config SHIELD_Kinedactyl_RH
+    def_bool $(shields_list_contains,Kinedactyl_RH)
