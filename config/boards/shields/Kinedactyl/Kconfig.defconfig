@@ -1,0 +1,16 @@
+if SHIELD_Kinedactyl_LH
+
+config ZMK_KEYBOARD_NAME
+    default "Kinedactyl"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_Kinedactyl_LH || SHIELD_Kinedactyl_RH
+
+config ZMK_SPLIT
+    default y
+
+endif
