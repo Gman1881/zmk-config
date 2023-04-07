@@ -21,12 +21,12 @@
 
         NUM_layer {
             bindings = <
-          &kp F2    &kp F3     &kp F4  &kp F5                                                                             &kp F8        &kp F9    &kp F10  &kp F11
-&trans    &trans    &trans     &trans  &trans     &trans                                             &trans    &trans  &kp SLASH  &kp ASTERISK  &kp MINUS   &trans
-&trans    &trans    &kp UP     &trans  &trans     &trans                                             &trans    &kp N7     &kp N8        &kp N9   &kp PLUS   &trans
-&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans     &trans                                             &trans    &kp N4     &kp N5        &kp N6   &kp PLUS   &trans
-&trans    &trans    &trans     &trans  &trans     &trans    &trans    &kp N1     &kp N2   &kp N3    &kp RET    &trans     &trans        &trans     &trans   &trans
-          &trans    &kp N0    &kp DOT  &trans  &kp LCTRL  &kp HOME  &kp RGUI  &kp RCTRL  &kp DEL  &kp SPACE  &kp LGUI   &kp RALT       &kp RET   &kp BSPC
+          &trans    &trans     &trans  &trans                                                                   &trans        &trans     &trans  &trans
+&trans    &trans    &trans     &trans  &trans  &trans                                    &trans      &trans  &kp SLASH  &kp ASTERISK  &kp MINUS  &trans
+&trans    &trans    &kp UP     &trans  &trans  &trans                                  &kp BSPC   &kp KP_N7  &kp KP_N8     &kp KP_N9   &kp PLUS  &trans
+&trans  &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &trans                                    &trans   &kp KP_N4  &kp KP_N5     &kp KP_N6   &kp PLUS  &trans
+&trans    &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans   &kp KP_N1  &kp KP_N2     &kp KP_N3    &kp RET  &trans
+          &trans    &trans     &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_DOT  &kp KP_N0       &kp RET   &kp BSPC
             >;
         };
     };
