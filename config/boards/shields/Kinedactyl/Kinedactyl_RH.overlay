@@ -1,0 +1,21 @@
+// Kinedactyl_LH.overlay
+
+#include "Kinedactyl.dtsi" // Notice that the main dtsi files are included in the overlay.
+
+
+&default_transform { // The matrix transform for this board is 8 columns over because the left half is 8 columns wide according to the matrix.
+    col-offset = <8>;
+};
+
+&kscan0 {
+    col-gpios
+      = <&nice_nano_v2 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 8  from the schematic file
+      , <&nice_nano_v2 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 9  from the schematic file
+      , <&nice_nano_v2 5  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 10 from the schematic file
+      , <&nice_nano_v2 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 11 from the schematic file
+      , <&nice_nano_v2 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 12 from the schematic file
+	    , <&nice_nano_v2 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 13 from the schematic file
+      , <&nice_nano_v2 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 14 from the schematic file
+	    , <&nice_nano_v2 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 15 from the schematic file
+            ;
+};
