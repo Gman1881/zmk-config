@@ -1,0 +1,16 @@
+// Kinedactyl_LH.overlay
+
+#include "Kinedactyl.dtsi" // Notice that the main dtsi files are included in the overlay.
+
+&kscan0 {
+    col-gpios
+      = <&nice_nano_v2 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 0 from the schematic file
+      , <&nice_nano_v2 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 1 from the schematic file
+      , <&nice_nano_v2 5  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 2 from the schematic file
+      , <&nice_nano_v2 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 3 from the schematic file
+      , <&nice_nano_v2 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 4 from the schematic file
+	    , <&nice_nano_v2 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 5 from the schematic file
+      , <&nice_nano_v2 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 6 from the schematic file
+	    , <&nice_nano_v2 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 7 from the schematic file
+            ;
+};
