@@ -1,0 +1,15 @@
+file_format: "1"
+id: kinedactyl
+name: Kinedactyl
+type: shield
+url: https://github.com/Gman1881/zmk-config
+requires:
+  - pro_micro
+exposes:
+  
+features:
+  - keys
+  - display
+siblings:
+  - Kinedactyl_LH
+  - Kinedactyl_RH
