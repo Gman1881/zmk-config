@@ -1,14 +1,14 @@
-if SHIELD_Kinedactyl_LH
+if SHIELD_kinedactyl_lh
 
 config ZMK_KEYBOARD_NAME
-    default "Kinedactyl"
+    default "kinedactyl"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_Kinedactyl_LH || SHIELD_Kinedactyl_RH
+if SHIELD_kinedactyl_lh || SHIELD_kinedactyl_rh
 
 config ZMK_SPLIT
     default y
