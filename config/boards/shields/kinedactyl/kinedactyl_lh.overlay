@@ -1,16 +1,16 @@
-// kinedactyl_LH.overlay
+// kinedactyl_lh.overlay
 
 #include "kinedactyl.dtsi" // Notice that the main dtsi files are included in the overlay.
 
 &kscan0 {
     col-gpios
-      = <&pro_micro 3  GPIO_ACTIVE_HIGH > // Col 0 from the schematic file
-      , <&pro_micro 4  GPIO_ACTIVE_HIGH > // Col 1 from the schematic file
-      , <&pro_micro 5  GPIO_ACTIVE_HIGH > // Col 2 from the schematic file
-      , <&pro_micro 6  GPIO_ACTIVE_HIGH > // Col 3 from the schematic file
-      , <&pro_micro 7  GPIO_ACTIVE_HIGH > // Col 4 from the schematic file
-      , <&pro_micro 8  GPIO_ACTIVE_HIGH > // Col 5 from the schematic file
-      , <&pro_micro 9  GPIO_ACTIVE_HIGH > // Col 6 from the schematic file
-      , <&pro_micro 20 GPIO_ACTIVE_HIGH > // Col 7 from the schematic file
+      = <&pro_micro 3  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 0 from the schematic file
+      , <&pro_micro 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 1 from the schematic file
+      , <&pro_micro 5  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 2 from the schematic file
+      , <&pro_micro 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 3 from the schematic file
+      , <&pro_micro 7  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 4 from the schematic file
+      , <&pro_micro 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 5 from the schematic file
+      , <&pro_micro 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 6 from the schematic file
+      , <&pro_micro 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> // Col 7 from the schematic file
             ;
 };
