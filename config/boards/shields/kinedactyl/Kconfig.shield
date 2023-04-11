@@ -1,8 +1,8 @@
 # Copyright (c) 2022 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-config SHIELD_Kinedactyl_LH
+config SHIELD_kinedactyl_lh
     def_bool $(shields_list_contains,kinedactyl_lh)
 
-config SHIELD_Kinedactyl_RH
+config SHIELD_kinedactyl_rh
     def_bool $(shields_list_contains,kinedactyl_rh)
