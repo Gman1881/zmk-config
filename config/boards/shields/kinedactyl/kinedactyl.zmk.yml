@@ -1,6 +1,6 @@
 file_format: "1"
 id: kinedactyl
-name: Kinedactyl
+name: kinedactyl
 type: shield
 url: https://github.com/Gman1881/zmk-config
 requires:
