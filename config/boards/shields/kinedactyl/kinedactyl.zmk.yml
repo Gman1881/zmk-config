@@ -11,5 +11,5 @@ features:
   - keys
   - display
 siblings:
-  - Kinedactyl_LH
-  - Kinedactyl_RH
+  - kinedactyl_lh
+  - kinedactyl_rh
