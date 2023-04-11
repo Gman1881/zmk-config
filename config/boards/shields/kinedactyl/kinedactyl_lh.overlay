@@ -1,4 +1,4 @@
-// Kinedactyl_LH.overlay
+// kinedactyl_LH.overlay
 
 #include "kinedactyl.dtsi" // Notice that the main dtsi files are included in the overlay.
 
