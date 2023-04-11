@@ -14,6 +14,6 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: kinedactyl_LH
+    shield: kinedactyl_lh
   - board: nice_nano_v2
-    shield: kinedactyl_RH
+    shield: kinedactyl_rh
