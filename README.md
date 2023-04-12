@@ -26,7 +26,7 @@ ZMK & Nice Keyboards Discord Channels <sub>Whose top contributors seem to be the
 foobar.pluralize('word')
 
 # Files
-foobar.pluralize('goose')
+Files available at [Cults](https://cults3d.com/en/3d-model/gadget/kinedactyl-custom-keyboard-stranger1-2)
 
 # returns 'phenomenon'
 foobar.singularize('phenomena')
