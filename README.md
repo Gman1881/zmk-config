@@ -23,21 +23,22 @@ ZMK & Nice Keyboards Discord Channels <sub>Whose top contributors seem to be the
 
 
 # Photos
-foobar.pluralize('word')
+![20230412_202200](https://user-images.githubusercontent.com/129561811/231567864-82df8103-7373-4397-a5d7-56aaf2085fea.jpg)
+![keymap](https://user-images.githubusercontent.com/129561811/231568338-b9ccf99c-156d-424c-a9b1-7c3ecd20ff1b.PNG)
 
 # Files
 Files available at [Cults](https://cults3d.com/en/3d-model/gadget/kinedactyl-custom-keyboard-stranger1-2)
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+# Retrospective
+At this point I think I would more closely emulate Kinesis's thumb clusters so I could just copy their layouts.
+
+I would also give some of the keys more room so I didnt have to grind down the amoeba pcb's in the tighter areas.
+
+A Heart felt THANK YOU to all those who have contributed to my project as well as all the repos that allow such a project to even exist.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+Pull requests are welcome. 
 
 ## License
 
