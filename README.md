@@ -25,6 +25,7 @@ ZMK & Nice Keyboards Discord Channels <sub>Whose top contributors seem to be the
 # Photos
 ![20230412_202200](https://user-images.githubusercontent.com/129561811/231567864-82df8103-7373-4397-a5d7-56aaf2085fea.jpg)
 ![keymap](https://user-images.githubusercontent.com/129561811/231568338-b9ccf99c-156d-424c-a9b1-7c3ecd20ff1b.PNG)
+![pinout-v2USER](https://user-images.githubusercontent.com/129561811/231822541-940e051a-5f37-479f-b08d-dcc3793253d0.png)
 
 # Files
 Files available at [Cults](https://cults3d.com/en/3d-model/gadget/kinedactyl-custom-keyboard-stranger1-2)
