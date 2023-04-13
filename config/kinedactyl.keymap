@@ -10,12 +10,12 @@
 
         default_layer {
             bindings = <
-              &kp F2    &kp F3          &kp F4     &kp F5                                                                                 &kp F8            &kp F9            &kp F10     &kp F11
-&kp EQUAL     &kp N1    &kp N2          &kp N3     &kp N4   &kp N5                                                   &kp N6    &kp N7     &kp N8            &kp N9             &kp N0   &kp MINUS
-  &kp TAB      &kp Q     &kp W           &kp E      &kp R    &kp T                                                    &kp Y     &kp U      &kp I             &kp O              &kp P    &kp BSLH
- &kp CAPS      &kp A     &kp S           &kp D      &kp F    &kp G                                                    &kp H     &kp J      &kp K             &kp L           &kp SEMI     &kp SQT
-&kp LSHFT      &kp Z     &kp X           &kp C      &kp V    &kp B  &kp LCTRL  &kp HOME  &kp RGUI  &kp RCTRL          &kp N     &kp M  &kp COMMA           &kp DOT           &kp FSLH  &kp RSHIFT
-           &kp GRAVE  &kp LALT  &kp LEFT_ARROW  &kp RIGHT  &kp DEL  &kp SPACE  &kp RGUI  &kp RALT  &kp ENTER  &kp BACKSPACE  &kp DOWN     &kp UP  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+              &kp F2     &kp F3          &kp F4     &kp F5                                                                                 &kp F8            &kp F9            &kp F10      &kp F11
+&kp EQUAL     &kp N1     &kp N2          &kp N3     &kp N4   &kp N5                                                   &kp N6    &kp N7     &kp N8            &kp N9             &kp N0  &lt 1 MINUS
+  &kp TAB      &kp Q      &kp W           &kp E      &kp R    &kp T                                                    &kp Y     &kp U      &kp I             &kp O              &kp P     &kp BSLH
+ &kp CAPS      &kp A      &kp S           &kp D      &kp F    &kp G                                                    &kp H     &kp J      &kp K             &kp L           &kp SEMI      &kp SQT
+&kp LSHFT      &kp Z      &kp X           &kp C      &kp V    &kp B   &kp LALT  &kp HOME  &kp RGUI  &kp RCTRL          &kp N     &kp M  &kp COMMA           &kp DOT           &kp FSLH   &kp RSHIFT
+           &kp GRAVE  &kp LCTRL  &kp LEFT_ARROW  &kp RIGHT  &kp DEL  &kp SPACE  &kp RGUI  &kp RALT  &kp ENTER  &kp BACKSPACE  &kp DOWN     &kp UP  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
